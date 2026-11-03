@@ -15,9 +15,9 @@ warnings.filterwarnings("ignore")
 # =========================================================
 # 1. 参数设置
 # =========================================================
-INPUT_FILE = "/Users/tianyuan/Desktop/医学-脓毒症合并高血压/codex重整数据/13.3.ExternalVal_boruta_outputs/mimic_boruta_selected_data.xlsx"   # Boruta粗筛后的数据
+INPUT_FILE = "ExternalVal_boruta_outputs/mimic_boruta_selected_data.xlsx"   # Boruta粗筛后的数据
 SHEET_NAME = 0
-OUTPUT_DIR = "/Users/tianyuan/Desktop/医学-脓毒症合并高血压/codex重整数据/13.3.ExternalVal_lasso_outputs"
+OUTPUT_DIR = "ExternalVal_lasso_outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # 如果为 None，则默认最后一列是标签

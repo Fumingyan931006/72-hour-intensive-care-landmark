@@ -1,0 +1,12 @@
+# Python 3.10
+# Pin exact versions from your own environment with:  pip freeze > requirements.txt
+numpy
+pandas
+openpyxl
+matplotlib
+scikit-learn
+Boruta
+xgboost
+lightgbm
+shap
+joblib

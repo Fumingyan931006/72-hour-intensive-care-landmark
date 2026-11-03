@@ -1,0 +1,14 @@
+# Never commit patient-level data or derived outputs
+*.xlsx
+*.xls
+*.csv
+*.joblib
+__MACOSX/
+.DS_Store
+.venv/
+*_outputs/
+folder/
+model_train/
+boruta_outputs/
+boruta_selected_folds/
+lasso_outputs/

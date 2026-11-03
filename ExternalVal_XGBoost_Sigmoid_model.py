@@ -30,7 +30,7 @@ except Exception as e:
 MIMIC_FILE = "ExternalVal_lasso_outputs/mimic_lasso_selected_data.xlsx"
 
 # EICU：外部验证数据（应包含与MIMIC最终特征同名列）
-EICU_FILE = "EICU_lasso_selected_data.xlsx"
+EICU_FILE = "mice_external_validation_outputs/eicu_imputed.xlsx"  # eICU data imputed with the MIMIC-fitted imputer
 
 MIMIC_SHEET = 0
 EICU_SHEET = 0
